@@ -281,16 +281,18 @@ span .links:hover {
   
 
  .quote img {
-    height: 100px;
-    width: 100px;
+    max-height: 100px;
+    max-width: 100px;
     border-radius: 50px;
  }
   
- .container {
-   display: flex;
-   justify-content: space-evenly;
-  
- }
+ .containers {
+   display:grid;
+   grid-template-columns: repeat(3,1fr);
+   padding: 0 30px;
+
+   
+ } 
 
  footer {
    background-color: rgb(90, 78, 140);
@@ -308,7 +310,7 @@ span .links:hover {
    color: aliceblue;
    font-size: 15px;
    list-style-type: none;
-   align-items: center;
+   text-align: left;
  }
 
  .subject-link:hover {
@@ -329,10 +331,11 @@ row-gap: 10px;
  .newsletter button {
    background-color: rgb(248, 9, 9);
    height: 40px;
+   width: 40%;
  }
 
  .footer-image {
-   height: 100px;
+   height: 70px;
    padding: 10px 0;
  }
 
