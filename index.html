@@ -16,28 +16,30 @@
             
         </div>
         <span >
-            <form action="" >
-            <input id="search" type="text"  placeholder="Search Courses...">
+            <form id="nav-search" action="" >
+            <input id="bar" type="text"  placeholder="Search Courses...">
+            <button type="submit"><i class="fas fa-search"></i></button>   
         </form>
     </span>  
         <div id="nav-links">
-            <span><a href="">Home</a></span> 
-          <span> <a href="">Browse Courses</a></span>
-           <span> <a href="">About</a></span>
-            <span><a href="">Blog</a></span>
-           <span> <a href="">Contact</a></span>
-           <span> <a href=""><i class="fa-solid fa-cart-shopping"></i></a></span>
+            <span><a class="links" href="">Home</a></span> 
+          <span> <a class="links" href="">Browse Courses</a></span>
+           <span> <a class="links" href="">About</a></span>
+            <span><a class="links" href="">Blog</a></span>
+           <span> <a class="links" href="">Contact</a></span>
+           <span> <a class="links" href=""><i class="fa-solid fa-cart-shopping"></i></a></span>
         </div>
             <span><button type="submit" class="signupbtn">Sign Up</button></span>
     </nav>  
     <section id="hero">
         <div id="hero-overlay">     
            <div id="hero-text">
-            <h1>Learn new skills online with top educators</h1>
+            <h1>Learn new skills with top educators</h1>
             <span><p>Learn 100% online with world-class universities and industry experts</p></span>
             <span >
-                <form action="" >
+                <form class="hero-search"  action="" >
                 <input id="learn" type="text"  placeholder="What do you want to learn...">
+                <button type="submit"><i class="fas fa-search"></i></button>   
             </form>
         </span>  
            </div>
@@ -49,7 +51,7 @@
         <header>
             The world's largest selection of courses
         </header>
-        <p>Choose from 130,000 online video courses with new additions published every month</p>
+        <p class="para-one">Choose from 130,000 online video courses with new additions published every month</p>
         <div class="swiper">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -57,10 +59,10 @@
                    <div class="browse">
                     <div class="browse-content">
                         <div class="browse-images"><img src="./asserts/images/online literature course.webp" alt=""></div>  
-                        <span><h1>Online literature Course</h1></span>
+                        <span><h1><a class="subject" href="">Online literature Course</a></h1></span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit, libero nec mattis lobortis, nulla urna porttitor ligula, pharetra rhoncus nisi nunc quis erat. Pellentesque vel ullamcorper libero, id venenatis.</p>
                         <p>Specialization-Beginners</p>
-                        <div>
+                        <div class="star">
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
@@ -72,10 +74,10 @@
 
                     <div class="browse-content">
                         <div class="browse-images"><img src="./asserts/images/software-developer-6521720_1280.jpg" alt=""></div>  
-                        <span><h1>Web Development Course</h1></span>
+                        <span><h1><a class="subject" href="">Web Development Course</a></h1></span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum, augue at euismod dignissim, neque diam ullamcorper mauris, ac convallis neque elit vel libero. Proin commodo elementum dui, sed finibus.</p>
                         <p>Specialization-Beginners</p>
-                        <div>
+                        <div class="star">
                            
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
@@ -90,10 +92,10 @@
 
                     <div class="browse-content">
                         <div class="browse-images"><img src="./asserts/images/digital-marketing-1725340_1280.jpg" alt=""></div>  
-                        <span><h1>Digital Marketing</h1></span>
+                        <span><h1><a class="subject" href="">Digital Marketing</a></h1></span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum nibh sit amet felis pellentesque rhoncus. Donec ut elit ante. Integer in lorem et massa dictum ultricies. Aliquam erat volutpat.</p>
                         <p>Specialization-Professional Certificate</p>
-                        <div>
+                        <div class="star">
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
@@ -103,8 +105,63 @@
                     </div>
                    </div>
                   </div>
-                  <div class="swiper-slide">Slide 2</div>
-                  <div class="swiper-slide">Slide 3</div>
+                  <div class="swiper-slide">
+                    <div class="browse">
+                        <div class="browse-content">
+                            <div class="browse-images"><img src="./asserts/images/data analytics.jpg" alt=""></div>  
+                            <span><h1><a class="subject" href="">Data Analytics</a></h1></span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum, augue at euismod dignissim, neque diam ullamcorper mauris, ac convallis neque elit vel libero. Proin commodo elementum dui, sed finibus.</p>
+                            <p>Specialization-Beginners</p>
+                            <div class="star">
+                               
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            
+                            <img src="" alt="">
+                            <p>by James Maddison</p>
+                        </div>
+
+                        <div class="browse-content">
+                            <div class="browse-images"><img src="./asserts/images/Ux Design.jpg" alt=""></div>  
+                            <span><h1><a class="subject" href="">UX Design</a></h1></span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum, augue at euismod dignissim, neque diam ullamcorper mauris, ac convallis neque elit vel libero. Proin commodo elementum dui, sed finibus.</p>
+                            <p>Specialization-Beginners</p>
+                            <div class="star">
+                               
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            
+                            <img src="" alt="">
+                            <p>by James Maddison</p>
+                        </div>
+                    
+                        <div class="browse-content">
+                            <div class="browse-images"><img src="./asserts/images/cyber-4610993_1280.jpg" alt=""></div>  
+                            <span><h1><a class="subject" href="">Cyber Security</a></h1></span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum, augue at euismod dignissim, neque diam ullamcorper mauris, ac convallis neque elit vel libero. Proin commodo elementum dui, sed finibus.</p>
+                            <p>Specialization-Beginners</p>
+                            <div class="star">
+                               
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            
+                            <img src="" alt="">
+                            <p>by James Maddison</p>
+                        </div>
+                    </div>
+                </div>    
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
@@ -112,10 +169,131 @@
               </div>
         </div>
     </section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <footer></footer>
+    <section id="about-section">
+      
+        <header>ABOUT US</header>
+        <div class="about-content">
+         <img src="./asserts/images/about image.jpg" alt="">
+        
+            <div>
+                    <span class="about-text">
+                        
+<h1>LEARN ANYTHING</h1>
+<h2>Benefits About Online Learning Expertise</h2>
+<div class="about-sub">
+    <h2>Online Courses</h2>
+<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+</p>        
+</div>
+<div class="about-sub">
+    <h2>Earn A Certificates</h2>
+    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+    </p>
+</div>
+
+   <div class="about-sub">
+    <h2>Learn with Expert</h2>
+  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+</p>   
+   </div>    
+</span>
+            </div>
+        </div>
+    </section>
+    <section class="tutoring" >
+        <Header>
+            QUALITY TUTORING
+        </Header>
+        <p class="para-one">Learn with professional teachers to gain access to expert knowledge and experience</p>
+        <div id="video-sec">
+            <video id="video" autoplay muted loop>
+                <source src="./asserts/video/about video.mp4">
+            </video>
+            <div id="video-overlay"> 
+        </div>
+    </section>
+    <section id="testimonial">
+        <header>
+            TESTIMONIAL
+        </header>
+        <div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="quote">
+                        <img src="./asserts/images/andrea-struebind-876129_1280.jpg" alt="">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non dui pulvinar, convallis risus vel, varius ligula. Donec porta neque id vulputate vestibulum. Aenean a egestas felis. Pellentesque dapibus vitae eros non scelerisque. </p>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        <p>Babara Streisand</p>
+                        
+                    </div>
+                  </div>
+                  <div class="swiper-slide"> 
+                    <div class="quote">
+                    <img src="./asserts/images/Tom Holland.jpg" alt="">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non dui pulvinar, convallis risus vel, varius ligula. Donec porta neque id vulputate vestibulum. Aenean a egestas felis. Pellentesque dapibus vitae eros non scelerisque. </p>
+                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    <p>Tom Holland</p>
+                    
+                </div></div>
+                  <div class="swiper-slide">
+                    <div class="quote">
+                        <img src="./asserts/images/armin-883896_1280.jpg" alt="">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non dui pulvinar, convallis risus vel, varius ligula. Donec porta neque id vulputate vestibulum. Aenean a egestas felis. Pellentesque dapibus vitae eros non scelerisque. </p>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        <p>Albert Edison</p>
+                        
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="container-section">
+            <img class="footer-image" src="./asserts/logos/logo-no-background.png" alt="aca.logo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae.</p>
+             <div class="social-media">
+
+          </div>        
+            </div>
+            <div class="footer-link">
+              <h4>Subjects</h4>
+              <ul>
+                <li><a class="subject-link" href="">Design & Creatives</a></li>
+                <li><a class="subject-link" href="">Telecommunication</a></li>
+                <li><a class="subject-link" href="">Restaurant</a></li>
+                <li><a class="subject-link" href="">Programing</a></li>
+                <li><a class="subject-link" href="">Architecture</a></li>
+                <li><a class="subject-link" href="">Community</a></li>
+                <li><a class="subject-link" href="">Design & Creatives</a></li>
+                <li><a class="subject-link" href="">Telecommunication</a></li>
+                <li><a class="subject-link" href="">Restaurant</a></li>
+                <li><a class="subject-link" href="">Programing</a></li>
+                <li><a class="subject-link" href="">Architecture</a></li>
+                <li><a class="subject-link" href="">Company</a></li>
+              </ul>      
+            </div>
+            <div class="newsletter">
+              <h4>Newsletter</h4>
+              <p>Subscribe to our newsletter to get updates.</p>
+              <form action="#">
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>Copyright ©2024 All rights reserved </p>
+          </div>
+            </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="./js/script.js"></script>
